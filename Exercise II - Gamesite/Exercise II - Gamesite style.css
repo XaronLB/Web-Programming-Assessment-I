@@ -1,0 +1,36 @@
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    background-image:linear-gradient(to top right,rgb(0, 119, 255), skyblue);
+}
+#head
+{
+    font-size: 50px;
+}
+h1
+{
+    color:magenta;
+    font-size: 100px ;
+    text-shadow:
+    -2px 0 0 white, 0 2px 0 white, 2px 0 0 white, 0 -2px 0 white,
+    -2px -2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white;
+    
+}
+h2
+{
+    color:white;
+    padding-left:100px;
+    padding-right:100px;
+    text-shadow:
+    -2px 0 0 darkblue, 0 2px 0 darkblue, 2px 0 0 darkblue, 0 -2px 0 darkblue,
+    -2px -2px 0 darkblue, -2px 2px 0 darkblue, 2px -2px 0 darkblue, -2px -2px 0 darkblue;
+}
+#wel
+{
+    color:magenta;
+    padding-top:100px;
+    font-size: 100px;
+}

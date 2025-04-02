@@ -1,0 +1,21 @@
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    background-color: turquoise;
+}
+#img1
+{
+    filter: contrast(2);
+    filter: saturate(2);
+}
+#img2
+{
+    filter: sepia();
+}
+#img3
+{
+    filter: invert();
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="calcstyle.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tltle>Calculator</tltle>
+    </head>
+    <body>
+        <div class="calculator"><center>
+            <br>
+            <label style="margin-top: 50px;" id="header">PETROL COST CALCULATOR</label><br><br>
+            <input type="number" id="amount" placeholder="Enter Liter Amount">
+            <button onclick="calculate()" id="button">Calculate</button>
+            <p>1.72 per liter</p>
+            <p>Total cost :</p>  
+            <p id="vat"></p>
+        </center></div>
+    </body>
+    <script>
+        function calculate() {
+            document.getElementById("vat").innerHTML=document.getElementById("amount").value*1.72
+        }
+    </script>
+</html>
